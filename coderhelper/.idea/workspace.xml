@@ -28,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="python_section0_2.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="python_section0_2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch_application/python_section0_2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -61,8 +61,8 @@
       <file leaf-file-name="php.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="51">
+              <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
               <folding>
                 <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -72,12 +72,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web_section0_4.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch_application/web_section0_4.html">
+      <file leaf-file-name="web.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="68">
+              <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+              <folding>
+                <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -147,6 +151,7 @@
       <find>course-card-top</find>
       <find>blue</find>
       <find>深入</find>
+      <find>python</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -156,7 +161,6 @@
         <option value="$PROJECT_DIR$/css/mook.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/python.html" />
-        <option value="$PROJECT_DIR$/web.html" />
         <option value="$PROJECT_DIR$/ch_application/python_section0_2.html" />
         <option value="$PROJECT_DIR$/ch_application/python_section0_3.html" />
         <option value="$PROJECT_DIR$/ch_application/web_section0_1.html" />
@@ -167,8 +171,9 @@
         <option value="$PROJECT_DIR$/ch_application/web_section1_2.html" />
         <option value="$PROJECT_DIR$/ch_application/web_section1_3.html" />
         <option value="$PROJECT_DIR$/ch_application/web_section1_4.html" />
-        <option value="$PROJECT_DIR$/php.html" />
         <option value="$PROJECT_DIR$/ch_application/python_section0_1.html" />
+        <option value="$PROJECT_DIR$/php.html" />
+        <option value="$PROJECT_DIR$/web.html" />
       </list>
     </option>
   </component>
@@ -331,12 +336,12 @@
       <workItem from="1489483533296" duration="744000" />
       <workItem from="1489489792324" duration="3858000" />
       <workItem from="1489547178362" duration="3052000" />
-      <workItem from="1489552761476" duration="9624000" />
+      <workItem from="1489552761476" duration="10059000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17278000" />
+    <option name="totallyTimeSpent" value="17713000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="149" y="31" width="1685" height="953" extended-state="0" />
@@ -526,18 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="71" lean-forward="false" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch_application/web_section0_1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -602,18 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch_application/python_section0_3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -640,9 +621,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ch_application/python_section0_2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
