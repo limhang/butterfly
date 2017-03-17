@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <!-- 引入 echarts.js -->
+    <script src="echarts.min.js"></script>
+
+</head>
+<body>
+
+<div id="main" style="width: 600px;height:400px;"></div>
+<script type="text/javascript">
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main'));
+
+    // 指定图表的配置项和数据
+
+    var xmlhttp;
+    var city = new Array();
+    var zhao_job = new Array();
+    var lg_job = new Array();
+    if (window.XMLHttpRequest)
+    {
+        //  IE7+, Firefox, Chrome, Opera, Safari 浏览器执行代码
+        xmlhttp=new XMLHttpRequest();
+    }
+    else
+    {
+        // IE6, IE5 浏览器执行代码
+        xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange=function()
+    {
+        if (xmlhttp.readyState==4 && xmlhttp.status==200)
+        {
+            var json = xmlhttp.responseText;
+            var data_analysis = JSON.parse(json);
+            for (var i=0 ; i<data_analysis.length; i++) {
+                city.push(data_analysis[i].lg_location);
+                zhao_job.push(data_analysis[i].zh_count);
+                lg_job.push(data_analysis[i].lg_count);
+            }
+            showData(city,lg_job,zhao_job);
+        }
+    }
+    xmlhttp.open("GET","sql_ctrl.php",true);
+    xmlhttp.send();
+
+
+
+    function showData(location_lg,lg_job,zh_job) {
+        var option = new Object();
+        option = {
+            title : {
+                text: 'iOS各地区行情分析',
+                subtext: '数据爬取于网络（今日）'
+            },
+            tooltip : {
+                trigger: 'axis'
+            },
+            legend: {
+                data:['岗位数','简历数']
+            },
+            calculable : true,
+            xAxis : [
+                {
+                    type : 'category',
+                    data : location_lg
+                }
+            ],
+            yAxis : [
+                {
+                    type : 'value'
+                }
+            ],
+            series : [
+                {
+                    name:'岗位数',
+                    type:'bar',
+                    data:lg_job
+
+                },
+                {
+                    name:'简历数',
+                    type:'bar',
+                    data:zh_job
+                }
+            ]
+        };
+        myChart.setOption(option);
+    }
+</script>
+</body>
+</html>
