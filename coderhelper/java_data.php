@@ -9,7 +9,7 @@
     if ($conn -> connect_error) {
         die("连接失败：" . $conn->connect_error);
     }
-    $sql_time = date("Y-m-d");
+    $sql_time = date("Y-m-d",strtotime("-1 day"));
     $sql = "SELECT * FROM lagou inner join zhaopingou on lagou.la_md5=zhaopingou.zhao_md5 WHERE lagou.lg_job='java' AND lagou.lg_time='$sql_time'";
     $result = $conn->query($sql);
 
