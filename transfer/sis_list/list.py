@@ -2,7 +2,7 @@ from pprint import pprint
 from goose import Goose
 from goose.text import StopWordsChinese
 import re
-source_file = open('list.md','r')
+source_file = open('url_list.md','r')
 source_data = source_file.read()
 source_array = re.split('--', source_data)
 
