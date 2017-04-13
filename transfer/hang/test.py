@@ -22,7 +22,10 @@ def getUrl(item):
 	if not os.path.exists(currentDir):
 		os.makedirs(currentDir)
 	f = open(currentDir + '/' +html_name,'a')
-	f.write(article.raw_html)
+	google_transfer = open("transfer.js").read()
+	print google_transfer
+
+	f.write(google_transfer + article.raw_html)
 	f.close()
 	print article.title
 
