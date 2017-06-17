@@ -9,7 +9,9 @@
     if ($conn -> connect_error) {
         die("连接失败：" . $conn->connect_error);
     }
-    $sql_time = date("Y-m-d",strtotime("-1 day"));
+//    $sql_time = date("Y-m-d",strtotime("-1 day"));
+
+    $sql_time = '2017-05-17'
     $sql = "SELECT * FROM lagou inner join zhaopingou on lagou.la_md5=zhaopingou.zhao_md5 WHERE lagou.lg_job='iOS' AND lagou.lg_time='$sql_time'";
     $result = $conn->query($sql);
 
